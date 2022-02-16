@@ -20,7 +20,7 @@ public class XPatternPrinting {
                 else if((i+j) == (ip.length()-1)) {
                     System.out.print(ip.charAt(j));
                 }
-                System.out.print(" ");
+                else System.out.print(" ");
             }
             System.out.println();
         }
